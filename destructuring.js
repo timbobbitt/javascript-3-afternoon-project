@@ -22,7 +22,8 @@ var carDetails = {
 */
 
 //Code Here
-
+let {color, make, model, year} = carDetails
+console.log(color, make, model, year)
 
 
 ////////// PROBLEM 2 //////////
@@ -35,11 +36,14 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
-  
+  title: 'Mr.'
+  firstName: 'Tim'
+  lastName: 'Bobbitt'
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
+console.log(greeting)
 
 
 

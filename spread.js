@@ -18,6 +18,7 @@ let product = {
 }
 
 // code here
+let productCopy = {...product};
 
 
 
