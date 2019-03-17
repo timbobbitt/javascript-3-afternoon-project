@@ -57,8 +57,11 @@ function employeeUpdater(){
   delete (employees[i]);
 } { 
   if (employees[i].firstName = "Lorie");
-  return (employees[i].department = 'HR');
+  else if (employees[i].department = 'HR');
+  return employees;
 }
+console.log(employeeUpdater)
+
 
 
 ////////// PROBLEM 2 //////////
@@ -76,6 +79,7 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
 */
 
 //Code Here
+
 function removeDuplicates() {
   for (let i = 0; i < workplaceAccidents.length; i++) {
     for (let j = i + 1; j < workplaceAccidents.length; j++) {
@@ -87,7 +91,6 @@ function removeDuplicates() {
   }
   return workplaceAccidents;
 }
-
 
 
 ////////// PROBLEM 3 //////////

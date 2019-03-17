@@ -19,6 +19,7 @@ let product = {
 
 // code here
 let productCopy = {...product};
+console.log(productCopy)
 
 
 
@@ -30,8 +31,8 @@ let productCopy = {...product};
 let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // code here
-
-
+let colorsCopy = [...colors];
+console.log(colorsCopy)
 
 
 ////////// PROBLEM 3 //////////
